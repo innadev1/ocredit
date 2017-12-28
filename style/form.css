@@ -1,0 +1,196 @@
+ul, li{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	margin: 0;
+}
+.flex{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.capture-on-top-div-4{
+    z-index: 10;
+    position: absolute;
+    color: white;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	top: 12vw;
+}
+.capture-on-top-div-4 h3{
+    margin: 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.3vw;
+}
+#control-point{
+	background-color: #0074d7;
+	width: 100%;
+	height: 20vw;
+}
+.formpage-div{
+	height: 7vw !important;
+	
+}
+.formpage-div-content{
+	width: 90%;
+	margin: auto;
+}
+.formpage-div-content img{
+	width: 3vw;
+	padding-right: 1vw;
+}
+.formpage-div-content h1{
+    font-size: 1.2vw;
+    color: white;
+    font-weight: 400;
+    margin: 0;
+}
+.formpage-div-content-1, .formpage-div-content-2, .formpage-div-content-3{
+	width: 33.3333%;
+	align-items: center;
+	justify-content: center;
+}
+
+.form{
+	flex-wrap: wrap;
+	width: 100%;
+}
+.form div{
+	width: 50%;
+}
+.slider{
+	width: 100%;
+    background-color: #0074d7;
+    height: 0.5vw;
+    border-radius: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+#form-page{
+	width: 60%;
+    margin: auto;
+}
+#form-page h2{
+    margin: 0;
+    color: rgb(0, 116, 215);
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    opacity: 0.8;
+    letter-spacing: 0.2vw;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+}
+#form-page p{
+    margin: 0;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    font-size: 1.1vw;
+    margin-bottom: 1vw;
+    font-weight: 500;
+}
+#form-page input{
+	width: 90%;
+    border-radius: 0.4vw;
+    border: 1px solid rgba(0,0,0,0.2);
+    height: auto;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    margin-bottom: 2vw;
+}
+#form-page input:focus{
+	border: 1px solid #0074d7;
+}
+#form-page button{
+	white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 0;
+    background-color: #ffa302;
+    color: white;
+    border: 1px solid #ffa302;
+    padding: 0.8vw 1.5vw;
+    font-size: 0.8vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1vw;
+    border-radius: 0.2vw;
+}
+.radio{
+	width: unset !important;
+	height: unset !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	margin-right: 1vw !important;
+	margin-bottom: 1vw !important;
+}
+.terms{
+	align-items: center;
+}
+.send_btn{
+	text-align: center;
+	margin-top: 2vw;
+    margin-bottom: 4vw;
+}
+@media screen and (max-width: 900px){
+#top-header{
+	height: 55vw !important;
+    background-position: 30% 40%;
+}
+.capture-on-top-div-4 {
+    z-index: 1;
+    top: 25vw;
+}
+.capture-on-top-div-4 h3 {
+    font-size: 8vw;
+}
+.formpage-div {
+    height: 30vw !important;
+}
+.formpage-div-content {
+    width: 100%;
+}
+.formpage-div-content-1, .formpage-div-content-2, .formpage-div-content-3 {
+    padding: 1vw;
+}
+.formpage-div-content h1 {
+    font-size: 4vw;
+}
+.formpage-div-content img {
+    width: 5vw;
+}
+#form-page {
+    width: 90%;
+}
+#form-page h2 {
+    font-size: 4vw;
+}
+#form-page p {
+    font-size: 3.5vw;
+	margin-bottom: 5vw;
+}
+.slider {
+    height: 2vw;
+}
+#form-page input {
+    font-size: 3vw;
+    padding: 1.5vw;
+}
+#form-page button {
+    padding: 2vw 10vw;
+    font-size: 3vw;
+}
+.radio {
+    margin-right: 2vw !important;
+    margin-bottom: 6vw !important;
+}
+
+}

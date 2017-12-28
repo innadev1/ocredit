@@ -1,0 +1,120 @@
+.flex{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+footer{
+	background-color: #1c1c1c;
+}
+#footer-1{
+	width: 80%;
+    margin: auto;
+	padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+#footer-2{
+	justify-content: center;
+	border-top: 1px solid rgba(123, 150, 188, 0.1)
+}
+#footer-2 div{
+	padding: 1.7vw;
+}
+#footer-2 a{
+	cursor: pointer;
+	font-size: 1vw;
+	color: rgb(204, 204, 204);	
+}
+#footer-2 a:hover{
+	text-decoration: underline;
+}
+.footer-1-content{
+	width: 25%;
+}
+.footer-1-content div:first-child{
+	height: 2.5vw;
+}
+.footer-1-content img{
+	width: 9vw;
+}
+.footer-1-content ul{}
+.footer-1-content li{
+	list-style-type: none;
+	margin-bottom: 0.3vw;
+}
+.footer-1-content a{
+	cursor: pointer;
+	font-size: 1vw;
+	color: rgb(204, 204, 204);
+	font-family: 'Roboto', sans-serif;
+}
+.footer-1-content a:hover{
+	text-decoration: underline;
+}
+.footer-1-content h1{
+	margin: 0;
+    font-size: 1vw;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.15vw;
+}
+.socials{}
+.socials div{}
+.socials img{
+    width: 3vw;
+    padding-right: 0.5vw;
+	padding-top: 1vw;
+}
+@media screen and (max-width: 900px){
+#footer-2{display:none}
+#footer-1 {
+    width: 80%;
+    flex-wrap: wrap;
+	padding-top: 15vw;
+    padding-bottom: 15vw;
+}
+.footer-1-content {
+    width: 50%;
+}
+.footer-1-content-end{
+	display: block !important;
+}
+.footer-1-content-start{
+	width: 100%;
+	display: -webkit-flex;
+    display: flex;
+	margin-bottom: 5vw;
+}
+.footer-1-content-start div{
+	width: 50%;
+}
+.footer-1-content a {
+    font-size: 3vw;
+    opacity: 0.8;
+    font-weight: 300;
+}
+.footer-1-content div:first-child {
+    height: 8vw;
+    margin-top: 3vw;
+}
+.footer-1-content h1 {
+    font-size: 3vw;
+}
+.socials div:first-child {
+    height: unset;
+    margin-top: unset;
+}
+.footer-1-content img {
+    width: 30vw;
+}
+.socials img {
+    width: 10vw;
+    padding-right: 0.5vw;
+    padding-top: 4vw;
+}
+
+
+
+}
